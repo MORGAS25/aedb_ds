@@ -19,7 +19,7 @@ class TwoWayIterator(Iterator):
     # In other words, returns true if previous would return an element rather than throwing an exception.
     @abstractmethod
     def has_previous(self): pass
-    
+
     # Returns the previous element in the iteration.
     # Throws NoSuchElementException
     @abstractmethod

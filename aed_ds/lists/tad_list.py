@@ -55,13 +55,13 @@ class List(ABC):
     # Throws EmptyListException.
     @abstractmethod
     def remove_last(self): pass
-    
+
     # Removes and returns the element at the specified position in the list.
     # Range of valid positions: 0, ..., size()-1.
     # Throws InvalidPositionException.
     @abstractmethod
     def remove(self, position): pass
-    
+
     # Removes all elements from the list.
     @abstractmethod
     def make_empty(self): pass
